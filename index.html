@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Trade Cost Estimator</title>
+</head>
+<body>
+    <main>
+<h1>Trade Cost Estimator</h1>
+<p>Select a trade and service. Enter zipcode to get an estimate.</p>
+<label for="trade-select">Trade: </label>
+<select id="trade-select">
+    <option value="'">Select a Trade</option>
+</select>
+<label for="service-select">Service: </label>
+<select id="service-select">
+    <option value="">Select a service</option>
+</select>
+
+<label for="zipcode-input">Zipcode: </label>
+<input type ="text" id="zipcode-input">
+<button id="zipcode-btn">Get Estimate</button>
+<section id="estimate-results"></section>
+</main>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
